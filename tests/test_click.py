@@ -1,7 +1,7 @@
 from click.testing import CliRunner
 from ciphey.ciphey import main
 from ciphey.basemods.Checkers import human
-import mock
+from unittest import mock
 
 
 def test_hello_world():

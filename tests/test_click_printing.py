@@ -1,7 +1,7 @@
 from click.testing import CliRunner
 from ciphey.ciphey import main
 from ciphey.basemods.Checkers import human
-import mock
+from unittest import mock
 
 
 @mock.patch("ciphey.basemods.Checkers.human.HumanChecker.check", return_value="")

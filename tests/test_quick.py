@@ -5,7 +5,7 @@ from ciphey.iface import Config
 from click.testing import CliRunner
 from ciphey.ciphey import main
 from ciphey.basemods.Checkers import human
-import mock
+from unittest import mock
 
 answer_str = "Hello my name is bee and I like dog and apple and tree"
 

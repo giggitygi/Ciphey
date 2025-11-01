@@ -1,6 +1,6 @@
 import pytest
 from click.testing import CliRunner
-import mock 
+from unittest import mock
 import re
 
 from ciphey import decrypt

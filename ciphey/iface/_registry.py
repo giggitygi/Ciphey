@@ -1,9 +1,4 @@
-from typing import Any, Dict, List, Optional, Set, Tuple, Type, Union
-
-try:
-    from typing import get_args, get_origin
-except ImportError:
-    from typing_inspect import get_origin, get_args
+from typing import Any, Dict, List, Optional, Set, Tuple, Type, Union, get_args, get_origin
 
 from . import _fwd
 from ._modules import *

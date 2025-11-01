@@ -1,0 +1,16 @@
+# Ciphey Dependencies
+# Python 3.8+ required
+
+rich>=13.0.0,<14.0.0
+pyyaml>=6.0,<7.0.0
+pylint>=3.0.0,<4.0.0
+flake8>=6.0.0,<8.0.0
+cipheydists>=0.3.35,<0.4.0
+cipheycore>=0.3.2,<0.4.0
+appdirs>=1.4.4,<2.0.0
+base58>=2.1.0,<3.0.0
+base91>=1.0.1,<2.0.0
+pybase62>=0.5.0,<1.0.0
+click>=8.0.0,<9.0.0
+pywhat>=5.0.0,<6.0.0
+xortool-ciphey>=0.1.16,<0.2.0
